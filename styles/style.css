@@ -1,0 +1,14 @@
+#grid {
+    border: 1px solid red;
+    column-width: 200px;
+    column-gap: 10px;
+  }
+  
+  #grid > div {
+    break-inside: avoid-column; 
+    page-break-inside: avoid; 
+    background: lime;
+    margin-bottom: 10px;
+  }
+
+  
